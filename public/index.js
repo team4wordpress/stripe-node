@@ -1,4 +1,4 @@
-var stripe = Stripe('pk_test_i9vEyDxm6RQA9Ck21vQkS51l00acnYF8gg');
+var stripe = Stripe('pk_test_hJz5vbcdMzNe2hhaNf9XaXyt00BgZGiw8J');
 
 var buttonCheckOut = document.querySelector('#buttonCheckOut');
 
@@ -10,7 +10,7 @@ buttonCheckOut.addEventListener('click', function(){
     stripe.redirectToCheckout({
         lineItems: [
           // Replace with the ID of your price
-          {price: 'plan_GIkwdrr25PvSmQ', quantity: 1}
+          {price: 'price_HKzIhChTtlvKRV', quantity: 1}
         ],
         mode: 'payment',
         successUrl: 'http://localhost:3000/success',
