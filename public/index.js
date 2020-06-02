@@ -10,7 +10,7 @@ buttonCheckOut.addEventListener('click', function(){
     stripe.redirectToCheckout({
         lineItems: [
           // Replace with the ID of your price
-          {price: 'price_HOD2tNoQ2hzyX2', quantity: 1}
+          {price: 'plan_GIkwdrr25PvSmQ', quantity: 1}
         ],
         mode: 'payment',
         successUrl: 'http://localhost:3000/success',
