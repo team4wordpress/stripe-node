@@ -4,8 +4,8 @@ const bodyParser = require('body-parser');
 
 const http = require('http')
 fs = require('fs');
-const stripe = require('stripe')('sk_test_Zc3dWNSOjhIYGxGE2PcpkXjg00fzoaVwBV');
-const endpointSecret = ' whsec_lLqaHiM1krfTUH9WPPoSDpecBfZ3hs15';
+const stripe = require('stripe')('pk_test_i9vEyDxm6RQA9Ck21vQkS51l00acnYF8gg');
+const endpointSecret = ' whsec_Yivk46hvPl5GiK9syKEuJBgc3fCJ8FoJ';
 
 
 const app = express()

@@ -1,4 +1,4 @@
-var stripe = Stripe('pk_test_hJz5vbcdMzNe2hhaNf9XaXyt00BgZGiw8J');
+var stripe = Stripe('pk_test_i9vEyDxm6RQA9Ck21vQkS51l00acnYF8gg');
 
 var buttonCheckOut = document.querySelector('#buttonCheckOut');
 
