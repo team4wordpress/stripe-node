@@ -13,8 +13,8 @@ buttonCheckOut.addEventListener('click', function(){
           {price: 'price_HKzIhChTtlvKRV', quantity: 1}
         ],
         mode: 'payment',
-        successUrl: 'http://localhost:3000/success',
-        cancelUrl: 'https://example.com/cancel',
+        successUrl: 'https://secure-falls-93947.herokuapp.com/success',
+        cancelUrl: 'https://secure-falls-93947.herokuapp.com/',
       }).then(function (result) {
         // If `redirectToCheckout` fails due to a browser or network
         // error, display the localized error message to your customer
